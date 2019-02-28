@@ -16,6 +16,9 @@ canvas {
       <h1>Welcome Buddy!!!!</h1>
       <h2>As you are here I know you are not a normal guy.</h2>
       <h3>Play this little game.Enjoy!!!<h3>
+        <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+        <p>Use the ACCELERATE button to stay in the air</p>
+        <p>How long can you stay alive?</p>
       <BUTTON onclick="myGameArea.play()">Play</BUTTON>
       <BUTTON onclick="myGameArea.clear()">Clear</BUTTON>
     </p>
@@ -157,8 +160,6 @@ function accelerate(n) {
 
 </script>
 <br>
-<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-<p>Use the ACCELERATE button to stay in the air</p>
-<p>How long can you stay alive?</p>
+
 </body>
 </html>
